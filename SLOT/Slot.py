@@ -16,7 +16,7 @@ def slot():
         print("\nMachine lancée !\n")
         time.sleep(2)
         #PARTIE LANCEMENT SLOT
-        temps_donné = random.randint(1000,3000)
+        temps_donné = random.randint(100000,500000)
         list_elements = ["$","£","€"]
         choix1 = random.choice(list_elements)
         choix2 = random.choice(list_elements)
