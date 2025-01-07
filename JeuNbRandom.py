@@ -15,7 +15,7 @@ n = int(input("Veuillez entrer un nombre entre 1 et 100 : "))
 
 nbchance = 1
 
-while nbrandom != n and nbchance !=5 and 1 <= n <=100:
+while nbrandom != n and nbchance <5 and 1 <= n <=100:
 
     if nbrandom > n:
         print("Le nombre random est plus GRAND")
@@ -33,7 +33,7 @@ if nbrandom == n:
     print("Vous avez gagné en", nbchance,"coup(s), bravo !")
     print("Le nombre random était :",nbrandom)
 
-if nbchance > 5:
+if nbchance == 5:
     print("Vous avez perdu, dommage !")
     print("Le nombre random était :",nbrandom)
 

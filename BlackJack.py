@@ -34,7 +34,7 @@ somme_bot = card1_bot + card2_bot
 print("Première Carte :",card1,"\n")
 print("Seconde Carte :",card2,"\n")
 print("Total =",somme,"\n")
-print("Total Adversaire =",somme_bot,"\n")
+#print("Total Adversaire =",somme_bot,"\n")
 
 choix_bot = ['stay','card']
 
